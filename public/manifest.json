@@ -1,0 +1,42 @@
+{
+  "manifest_version": 2,
+  "name": "Career Management Prototype Extension",
+  "description": "Trusted Web Browser Extension.",
+  "version": "1.0.0",
+  "icons": {
+    "72": "logo384.png"
+  },
+  "browser_action": {
+    "default_icon": "logo384.png",
+    "default_popup": "index.html",
+    "default_title": "Open Popup"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://self-issued.me/*",
+        "$__REACT_APP_EXTENSION_OBSERVABLE_HOST__/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "commands": {
+    "_execute_browser_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+O",
+        "mac": "MacCtrl+Shift+O"
+      },
+      "description": "Toggle Popup"
+    }
+  },
+  "permissions": [
+    "$__REACT_APP_TRACE_APP_HOST__/*",
+    "storage"
+  ],
+  "web_accessible_resources": [
+    "tab.html"
+  ],
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}

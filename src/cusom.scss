@@ -1,0 +1,8 @@
+// Custom.scss
+// Option B: Include parts of Bootstrap
+$primary: #0509F4;
+$danger: #ff4136;
+$success: #00C853;
+
+// https://getbootstrap.jp/docs/5.0/customize/sass/
+@import "../node_modules/bootstrap/scss/bootstrap";

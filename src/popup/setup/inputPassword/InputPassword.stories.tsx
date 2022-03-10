@@ -1,0 +1,21 @@
+import React, { ComponentProps } from "react";
+import { Story, Meta } from "@storybook/react";
+
+import { InputPasswordView } from "./InputPassword.view";
+
+export default {
+  title: "TrustedWeb/Views/Setup/InputPassword",
+  component: InputPasswordView,
+} as Meta;
+
+const Template: Story<ComponentProps<typeof InputPasswordView>> = (args) => (
+  <InputPasswordView {...args} />
+);
+
+export const FirstStory = Template.bind({});
+FirstStory.args = {};
+
+export const BadRequest = Template.bind({});
+BadRequest.args = {
+  error: { title: "存在しないメールアドレスです" },
+};

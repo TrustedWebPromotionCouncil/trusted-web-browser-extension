@@ -1,0 +1,17 @@
+@import "../../../index";
+
+.dataset-container {
+ min-width: 400px;
+}
+
+.pass-text {
+  @extend .text-styles-body1;
+  color: var(--bs-success);
+  padding: 4px 0;
+}
+
+.not-pass-text {
+  @extend .text-styles-body1;
+  color: var(--bs-danger);
+  padding: 4px 0;
+}

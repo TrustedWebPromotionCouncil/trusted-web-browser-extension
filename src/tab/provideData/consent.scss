@@ -1,0 +1,16 @@
+@import "../../index";
+
+.destination {
+  text-align: center;
+}
+
+.input-field {
+  display: flex;
+  padding-left: 32px;
+  padding-top: 8px;
+}
+
+.input-field-email {
+  flex-grow: 1;
+  padding-left: 8px;
+}

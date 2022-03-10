@@ -1,0 +1,12 @@
+.popup-container {
+  width: 386px;
+  height: 539px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+}
+
+.warning {
+  color: red;
+  font-size: small;
+}

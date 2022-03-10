@@ -1,0 +1,35 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px;
+  @media (min-width: 480px) {
+    background: url("../../../brand-logo.data-uri.png") no-repeat center center;
+    background-size: auto 30px;
+    background-color: #163461;
+  }
+  background-color: #163461;
+}
+
+.account-area {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.account-icon {
+  display: flex;
+  padding: 0 4px;
+  height: 100%;
+}
+
+.account-name {
+  display: flex;
+  padding: 3px 8px;
+  color: white;
+  height: 100%;
+}
+
+.back:hover {
+  cursor: pointer;
+}

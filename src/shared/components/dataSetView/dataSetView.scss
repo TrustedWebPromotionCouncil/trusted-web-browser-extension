@@ -1,0 +1,23 @@
+@import '../../../index';
+
+.data-set-container > ul {
+  padding-left: 0;
+}
+
+.data-set {
+  margin-bottom: 12px;
+  list-style-type: none;
+}
+
+.data-section-label-wrapper {
+  margin-bottom: 8px;
+}
+
+.data-label {
+  @extend .text-styles-caption;
+  margin-right: 8px;
+}
+
+.data-value {
+  @extend .text-styles-body1;
+}
