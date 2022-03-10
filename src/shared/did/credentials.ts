@@ -27,7 +27,7 @@ export const createVC = async (
     vc: {
       "@context": [
         "https://www.w3.org/2018/credentials/v1",
-        "https://github.com/DataSignInc/trusted-web-vocab/blob/f0780b88084cfbae3b119473362b2d1e1c807ab9/schema.jsonld",
+        "https://github.com/TrustedWebPromotionCouncil/trusted-web-vocab/blob/7d89b40d969e203399c9a8224966139304eebc1f/schema.jsonld",
       ],
       type: ["VerifiableCredential", type],
       credentialSubject: data,
