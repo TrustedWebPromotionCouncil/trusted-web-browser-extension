@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0a8f86c6.css",
+    "main.js": "/static/js/main.c91eaa87.js",
+    "main.js.map": "/static/js/main.c91eaa87.js.map",
+    "tab.a0aeb741.css": "/static/css/tab.a0aeb741.55eb7209.css",
+    "tab.a0aeb741.js": "/static/js/tab.a0aeb741.4b2ca7d5.js",
+    "tab.a0aeb741.js.map": "/static/js/tab.a0aeb741.4b2ca7d5.js.map",
+    "company-meta-info.json": "/company-meta-info.json",
+    "company1.json": "/company1.json",
+    "company2.json": "/company2.json",
+    "company3.json": "/company3.json",
+    "company4.json": "/company4.json",
+    "content.js": "/content.js",
+    "favicon.ico": "/favicon.ico",
+    "index.html": "/index.html",
+    "logo384.png": "/logo384.png",
+    "manifest.json": "/manifest.json",
+    "robots.txt": "/robots.txt",
+    "static/css/main.0a8f86c6.css.map": "/static/css/main.0a8f86c6.css.map",
+    "static/css/tab.a0aeb741.55eb7209.css.map": "/static/css/tab.a0aeb741.55eb7209.css.map",
+    "static/js/main.c91eaa87.js.LICENSE.txt": "/static/js/main.c91eaa87.js.LICENSE.txt",
+    "static/js/tab.a0aeb741.4b2ca7d5.js.LICENSE.txt": "/static/js/tab.a0aeb741.4b2ca7d5.js.LICENSE.txt",
+    "tab.html": "/tab.html"
+  },
+  "entrypoints": [
+    "static/css/main.0a8f86c6.css",
+    "static/js/main.c91eaa87.js"
+  ]
+}
