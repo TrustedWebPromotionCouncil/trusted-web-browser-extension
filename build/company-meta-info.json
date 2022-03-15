@@ -1,0 +1,22 @@
+[
+  {
+    "did": "did:ion:EiBoZxu209mxIv-fAYJU6b3ekH-6qYWWlBPQJBvyNTxggQ",
+    "name": "株式会社 ABC自動車",
+    "forStaff": false
+  },
+  {
+    "did": "did:ion:EiC6yRhIrw0_ZNrK3691eTl-0RGli5WyKYGrY34MxzSJsA",
+    "name": "株式会社 ABCバンク",
+    "forStaff": false
+  },
+  {
+    "did": "did:ion:EiBiVaUb_7fr1sYefT1-1jy3ysNQ1pU29znEjTal9TFJkA",
+    "name": "株式会社 ABCコンサルティング",
+    "forStaff": true
+  },
+  {
+    "did": "did:ion:EiDh2OrkrUnXBXghWDtXe2_XGkkDD6OSDDPBlorFltjhCw",
+    "name": "株式会社 ABCシステム",
+    "forStaff": true
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "name": "company2",
+  "initialState": {
+    "shortForm": "did:ion:EiC6yRhIrw0_ZNrK3691eTl-0RGli5WyKYGrY34MxzSJsA",
+    "longForm": "did:ion:EiC6yRhIrw0_ZNrK3691eTl-0RGli5WyKYGrY34MxzSJsA:eyJkZWx0YSI6eyJwYXRjaGVzIjpbeyJhY3Rpb24iOiJyZXBsYWNlIiwiZG9jdW1lbnQiOnsicHVibGljS2V5cyI6W3siaWQiOiJrZXktMSIsInB1YmxpY0tleUp3ayI6eyJjcnYiOiJzZWNwMjU2azEiLCJrdHkiOiJFQyIsIngiOiJnSmZvRHNuQWtuQnhzRlZLTHowZnRNdWx4S3FPcjctSXA0U3oyR2t3STRzIiwieSI6ImJtYnJ0dFhXUi0xdkt1aFlzQ0MtSkNOdG9zdk1nOVUxTWxOenRMUVFWTkEifSwicHVycG9zZXMiOlsiYXV0aGVudGljYXRpb24iLCJrZXlBZ3JlZW1lbnQiXSwidHlwZSI6IkVjZHNhU2VjcDI1NmsxVmVyaWZpY2F0aW9uS2V5MjAxOSJ9XX19XSwidXBkYXRlQ29tbWl0bWVudCI6IkVpRGxxUUFZOUJRWEFrb0pKcmFMb0l6aVJRYTUxNlAzdVFUR2RzdjRGb1J0cVEifSwic3VmZml4RGF0YSI6eyJkZWx0YUhhc2giOiJFaUNTU2N5OFhfYVVvWmFGbTQ4YmYwRnR0VkJ3MzlYZkVIQUtZQldYNnRZcXpRIiwicmVjb3ZlcnlDb21taXRtZW50IjoiRWlBR2JCX1NYQzhTY010ck1TdTRoSXl1S1lfM01OWk9BSGhjaEV0eXF4WjlYdyJ9fQ",
+    "ops": [
+      {
+        "operation": "create",
+        "content": {
+          "publicKeys": [
+            {
+              "id": "key-1",
+              "type": "EcdsaSecp256k1VerificationKey2019",
+              "publicKeyJwk": {
+                "kty": "EC",
+                "crv": "secp256k1",
+                "x": "gJfoDsnAknBxsFVKLz0ftMulxKqOr7-Ip4Sz2GkwI4s",
+                "y": "bmbrttXWR-1vKuhYsCC-JCNtosvMg9U1MlNztLQQVNA"
+              },
+              "purposes": [
+                "authentication",
+                "keyAgreement"
+              ]
+            }
+          ]
+        },
+        "recovery": {
+          "publicJwk": {
+            "kty": "EC",
+            "crv": "secp256k1",
+            "x": "_UfhMVgH4lA4zrY5vExVSESAD376GNag0OMHFoqfhNM",
+            "y": "uTW3mWf7jNwCbdkJRy-YwxX0nd7X8eoNar7yEH2i0AI"
+          },
+          "privateJwk": {
+            "kty": "EC",
+            "crv": "secp256k1",
+            "d": "xMHJSRct4jmchS4J7aegXNDJep4hYirdIFAlmWZi95Q",
+            "x": "_UfhMVgH4lA4zrY5vExVSESAD376GNag0OMHFoqfhNM",
+            "y": "uTW3mWf7jNwCbdkJRy-YwxX0nd7X8eoNar7yEH2i0AI"
+          }
+        },
+        "update": {
+          "publicJwk": {
+            "kty": "EC",
+            "crv": "secp256k1",
+            "x": "_DT5USvlQ5sJtYSKy6KAebzKhyIVn-ebzAWGzxrsyHs",
+            "y": "f1kBR8-4Gw9rGmQBl0ih1MFTFIxL4L8mWSNdz-PW8M4"
+          },
+          "privateJwk": {
+            "kty": "EC",
+            "crv": "secp256k1",
+            "d": "Uw2Vdd8HDHnLAC6VLHpvt4ybbce8FQMW2Bw11ABlgjo",
+            "x": "_DT5USvlQ5sJtYSKy6KAebzKhyIVn-ebzAWGzxrsyHs",
+            "y": "f1kBR8-4Gw9rGmQBl0ih1MFTFIxL4L8mWSNdz-PW8M4"
+          }
+        }
+      }
+    ]
+  },
+  "keys": {
+    "kid": "key-1",
+    "kty": "EC",
+    "crv": "secp256k1",
+    "d": "isucYVkBSecIsHaRgaiT1l4_obo7PQJ7swy6cYXj_Es",
+    "x": "gJfoDsnAknBxsFVKLz0ftMulxKqOr7-Ip4Sz2GkwI4s",
+    "y": "bmbrttXWR-1vKuhYsCC-JCNtosvMg9U1MlNztLQQVNA"
+  },
+  "version": "v0.2.0",
+  "created": "2021-12-09T09:00:29.094Z"
+}
